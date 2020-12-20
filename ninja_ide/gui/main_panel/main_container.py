@@ -47,7 +47,7 @@ from ninja_ide.gui.editor import editor
 from ninja_ide.core.file_handling import file_manager
 from ninja_ide.tools.locator import locator_widget
 
-logger = NinjaLogger('main_panel.main_container')
+logger = NinjaLogger(__name__)
 
 
 class _MainContainer(QWidget):
